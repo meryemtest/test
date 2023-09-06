@@ -10,7 +10,8 @@ class Testaddfunction(unittest.TestCase):
         self.assertEqual(result,-7)
 if __name__ == '__main__':
     unittest.main()
-
+def soustraction(a,b):
+    return a-b
 def divide(a, b):
     return a / b
 class Testdividefunction(unittest.TestCase):
