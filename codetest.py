@@ -12,6 +12,10 @@ if __name__ == '__main__':
     unittest.main()
 def soustraction(a,b):
     return a-b
+class Testsoustrafct(unittest.TestCase):
+   def test_soustra(self):
+        result=soustra(4,3)
+        self.assertEqual(result,1)
 def divide(a, b):
     return a / b
 class Testdividefunction(unittest.TestCase):
